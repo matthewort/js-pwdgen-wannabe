@@ -7,4 +7,4 @@ console.log(cognome);
 console.log(colore);
 
 
-document.getElementById("titolo").innerHTML = nome + cognome + colore + "19";
+document.getElementById("titolo").innerHTML = "Le tue credenziali sono:" + " " + nome + cognome + colore + "19";

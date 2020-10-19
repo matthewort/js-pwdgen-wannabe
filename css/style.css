@@ -8,11 +8,55 @@ body {
     height: 100vh;
     width: 100vw;
     background: #365577;
-    font-family: verdana;
+    font-family: tahoma;
+    color: darkblue;
+}
+
+nav {
+  height: 30%;
+  width: 100%;
+  background-color: #233C67;
+  display: flex;
+}
+
+.duck {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.duck1 {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.duck2 {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  font-size: 40px;
+  color: white;
+  font-weight: bold; 
+}
+
+#duckimg {
+  display: flex;
+  height: 80%;
+  width: auto;
 }
 
 .container {
-  height: 100%;
+  height: 70%;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -23,7 +67,7 @@ body {
 }
 
 .subcontainer {
-  height: 80%;
+  height: 50%;
   width: 50%;
   display: flex;
   flex-direction: row;
@@ -31,8 +75,5 @@ body {
   align-items: center;
   align-self: center;
   background-color: #FDF8E2;
-}
-
-form {
-
+  border-radius: 50px;
 }
